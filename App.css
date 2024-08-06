@@ -1,0 +1,10 @@
+/* App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the footer sticks to the bottom */
+}
+.content {
+  flex: 1; /* Ensures content area takes up remaining space */
+  padding: 20px;
+}

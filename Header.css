@@ -1,0 +1,26 @@
+/* src/Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #80abe2;
+  color: #171313;
+}
+
+.logo img {
+  width: 100px;
+  height: 50px;
+}
+
+
+.nav-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #070606;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #0e0a0a;
+}
